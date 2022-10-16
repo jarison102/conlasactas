@@ -14,7 +14,7 @@ app.set('views',__dirname+'/views')
 app.get('/', (req, res) => {
  // res.send('Pagina principal')
   console.log(__dirname)
-  res.render('index')
+  res.render('inicio')
 })
 
 app.get('/educacion', (req, res) => {
@@ -45,7 +45,7 @@ app.get('/educacion', (req, res) => {
   })
     
   })
-
+  
 app.listen(port, () => {
   console.log(`accede al servidor haciendo click aqui  http://localhost:${port}`)
 })

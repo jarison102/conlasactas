@@ -1,6 +1,7 @@
+
 /* Styles for dialog window */
 #small-dialog,#small-dialog2{
-	background: #fff;
+	background: #24303c;
     text-align: left;
     max-width: 600px;
     padding: 2em;
@@ -99,7 +100,7 @@ opacity: 0;
 	margin: 10px 0;
 	outline: none;
 	background: #EBEBEB;
-	border: solid 1px #222;
+	border: solid 1px white;
 }
 .signup input.email[type="text"],.signup input[type="password"]{
 	width: 90%;
@@ -107,7 +108,7 @@ opacity: 0;
 	margin: 10px 0;
 	outline: none;
 	background: #EBEBEB;
-	border: solid 1px #222;
+	border: solid 1px white;
 }
 .login input[type="submit"],.signup input[type="submit"]{
 	background: #347083;
@@ -119,10 +120,10 @@ opacity: 0;
 	color: #fff;
 	text-transform: uppercase;
 	width: 17%;	
-	-webkit-appearance: none;
+	
 }
 .login input[type="submit"]:hover,.signup input[type="submit"]:hover{
-	background:#163035;
+	background:white;
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
@@ -348,17 +349,11 @@ ul.w3_count {
     text-align: center;
     padding: 0em;
 }
-.price-gd-top.pric-clr2 h4 {
-}
-.price-gd-top.pric-clr2 {
-}
+
 .price-selet.pric-sclr2 a {
      background: #fff;
 }
-.price-gd-top.pric-clr3 {
-}
-.price-gd-top.pric-clr3 h4 {
-}
+
 .price-gd-top.pric-clr4 {
 	background:#673AB7;
 }
@@ -371,7 +366,7 @@ ul.w3_count {
 .price-list ul li {
     padding: 0.5em 0em;
     font-size: 0.9em;
-    color: #2b2b2b;
+    color: white;
     display: inline-block;
 }
 .price-selet {
@@ -463,13 +458,13 @@ i.fa.fa-diamond {
     text-align: center;
     font-size: 2em;
     margin-bottom: 1em;
-    color: #212121;
+    color: white;
     position: relative;
     padding-bottom: .5em;
 }
 .form-control label {
     font-size: 1em;
-    color: #212121;
+    color: white;
     width: 40%;
     display: inline-block;
 }
@@ -479,8 +474,8 @@ input#firstname, input#lastname, input#email, input#password1, input#password2, 
     font-size: 14px;
     width: 54%;
     border: none;
-    border: 1px solid #dadada;
-    color: #212121;
+    border: 1px solid black;
+    color: white;
     text-align: justify;
     outline: none;
     letter-spacing: 1px;
@@ -498,13 +493,13 @@ input[type="submit"], a {
 		-o-border-radius: 3px;
 }
 .register {
-    background-color: #F44336;
+    background-color: #00acee;
     width: 100%;
     padding: 15px 0px;
     border: none;
     margin-top: 20px;
     cursor: pointer;
-    color: #fff;
+    color: black;
     outline: none;
     font-size: 15px;
     font-weight: normal;
@@ -532,32 +527,6 @@ input[type="submit"], a {
     position: absolute;
     left: 30%;
 }
-
-/* //popup signup form styling */
-
-
-/* copyright */
-.copyright-agile {
-    text-align: center;
-    padding: 1em;
-    margin-top: 30px;
-}
-.copyright-agile p {
-    color: #fff;
-    font-size: 14px;
-    letter-spacing: .1em;
-    line-height: 26px;
-}
-.copyright-agile p a {
-    color: #999 !important;
-    text-decoration: none !important;
-}
-.copyright-agile p a:hover {
-    color: #f00 !important;
-}
-/* //copyright */
-
-
 
 
 
