@@ -23,7 +23,7 @@ app.get('/educacion', (req, res) => {
         descripcion:"aqui encontraras la descipsion "
     })
   })
-  app.get('/laboral', (req, res) => {
+  app.get('/Laboral', (req, res) => {
     res.render('laboral',{
       
   })
