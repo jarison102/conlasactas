@@ -14,7 +14,7 @@ app.set('views',__dirname+'/views')
 app.get('/', (req, res) => {
  // res.send('Pagina principal')
   console.log(__dirname)
-  res.render('Inicio')
+  res.render('Habilidades')
 })
 
 app.get('/educacion', (req, res) => {
