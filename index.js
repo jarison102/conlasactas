@@ -24,16 +24,16 @@ app.get('/educacion', (req, res) => {
     })
   })
   app.get('/Laboral', (req, res) => {
-    res.render('laboral',{
+    res.render('Laboral',{
       
   })
   })
-  app.get('/datos', (req, res) => {
+  app.get('/Datos', (req, res) => {
     res.render('DatosPersonales')
     res.send('Datos basicos')
     
   })
-  app.get('/habilidades', (req, res) => {
+  app.get('/Habilidades', (req, res) => {
     res.render('Habilidades',{
      
   })
