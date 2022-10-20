@@ -708,3 +708,47 @@ input[type="submit"], a {
 @media (max-width:1440px) {
 	
 }
+.github{
+	border-radius: 20%;
+	height: 70px;
+	width: 70px;
+	left: 920px;
+	padding:-1px;
+   position: relative;
+   bottom:-450px;
+   right:500px;
+   background-image: url(../github.png);
+  }
+	.twitter{
+		border-radius: 20%;
+		height: 70px;
+		width: 70px;
+		left: 680px;
+		padding:-1px;
+	   position: relative;
+	   bottom:-450px;
+	   right:500px;
+	   background-image: url(../twitter.png);
+	}
+	.face{
+		border-radius: 20%;
+		height: 70px;
+		width: 70px;
+		left: 500px;
+		padding:-1px;
+	   position: relative;
+	   bottom:-450px;
+	   right:500px;
+	   background-image: url(../face-logo.png);
+	}
+	.instagram{
+		background-image: url(../instagram.png);
+		border-radius: 20%;
+		height: 70px;
+		width: 70px;
+		left: 680px;
+		padding:-1px;
+	   position: relative;
+	   bottom:-450px;
+	   right:500px;
+	}

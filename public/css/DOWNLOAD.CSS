@@ -51,4 +51,37 @@ body {
   .download-btn:hover .top {
     margin-top:-50px;
   }
+  .salud{
+    position: relative;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    background-image: url(../tecnico.JPG);
+    background-size: 100%;
+    margin: 0 auto;
+    left: 40%;
+  }
+  .tecnico{
+    position: relative;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    background-image: url(../Saludparaeltrabajo.JPG);
+    background-size: 100%;
+    margin: 0 auto;
+  }
+  .botontec{
+    padding:100px;
+    position: fixed;
+    bottom:-90px;
+    right:180px;
+ 
   
+
+  }
+  .botonsalud{
+    position: relative;
+    left: 7%;
+    height:30%;
+    
+  }
